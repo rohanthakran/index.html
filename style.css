@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+
+}
+.calculator{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    top: 50px;
+    position: relative;
+    background-color: rgba(0.5,0.5,0.5, 0.5);
+}
+.main-box{
+    margin: auto;
+    width: 90%;
+    padding: 13px;
+}
+.result{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+}
+.box2{
+    background-color: white;
+    height: 70%;
+    padding: 20px;
+    
+}
+.box1 p{
+    display: inline-block;
+}
+.keyboard{
+    display: flex;
+    
+}
+.keyboard button{
+    padding: 15px;
+}
