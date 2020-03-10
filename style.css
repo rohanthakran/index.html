@@ -31,15 +31,13 @@ body{
     background-color: white;
     height: 70%;
     padding: 20px;
+    display: flex;
     
 }
 .box1 p{
     display: inline-block;
 }
-.keyboard{
-    display: flex;
-    
-}
+
 .keyboard button{
     padding: 15px;
 }
