@@ -9,8 +9,8 @@ body{
 }
 .calculator{
     margin: auto;
-    width: 500px;
-    height: 500px;
+    width: 431px;
+    height: 610px;
     background-color: white;
     border-radius: 5px;
     top: 50px;
@@ -30,14 +30,48 @@ body{
 .box2{
     background-color: white;
     height: 70%;
-    padding: 20px;
-    display: flex;
+
+
     
+}
+#history
+{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px ;
+    font-size: 25px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 50px;
+
 }
 .box1 p{
     display: inline-block;
 }
+.keyboard{
 
+}
+button:nth-child(1){
+    font-size: 20px;
+    background-color: saddlebrown;
+}
 .keyboard button{
     padding: 15px;
+}
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    outline: none;
+   cursor: pointer;
+     border-width: 0;
+     font-weight: bold;
+     font-size: 15px;
+
 }
